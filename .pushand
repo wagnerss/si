@@ -1,2 +1,2 @@
 #! /bin/bash
-phd $0 si saborintegralconsultoria.com.br
+phd $0 si *.saborintegralconsultoria.com.br
