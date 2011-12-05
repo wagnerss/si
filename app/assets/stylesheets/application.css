@@ -6,4 +6,6 @@
  *= require_tree . 
  *= accordion 
  *= style 
+ *= formtastic 
+ *= formtastic_change 
 */
