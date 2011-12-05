@@ -15,7 +15,7 @@ development:
   database: si_development
   pool: 5
   username: root
-  password: Webbynode23we
+  password: root
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +28,7 @@ test:
   database: si_test
   pool: 5
   username: root
-  password: Webbynode23we
+  password: root
   host: localhost
 
 
@@ -39,6 +39,6 @@ production:
   database: si_production
   pool: 5
   username: root
-  password: Webbynode23we
+  password: root
   host: localhost
 
