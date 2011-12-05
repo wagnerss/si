@@ -21,7 +21,7 @@ gem 'formtastic'
 gem 'therubyracer'
 
 gem 'gmaps4rails'
-gem 'rake', '0.9.2'
+gem 'rake', '0.9.2.2'
 
 # Use unicorn as the web server
 # gem 'unicorn'
