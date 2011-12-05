@@ -10,4 +10,8 @@ class PublicController < ApplicationController
   def about
   end
 
+  def home
+    render :layout => false
+  end
+
 end
