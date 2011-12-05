@@ -6,6 +6,7 @@ Si::Application.routes.draw do
   get "public/contact"
 
   resources :pages
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
