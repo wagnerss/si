@@ -19,6 +19,8 @@ gem 'jquery-rails'
 gem 'formtastic'
 gem 'therubyracer'
 
+gem 'gmaps4rails'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

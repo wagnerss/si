@@ -1,4 +1,10 @@
 Si::Application.routes.draw do
+
+  get "public/index"
+  get "public/about"
+  get "public/service"
+  get "public/contact"
+
   resources :pages
 
   # The priority is based upon order of creation:

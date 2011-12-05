@@ -1,0 +1,42 @@
+* {margin:0; padding:0;}
+
+#options {width:597px; margin:20px auto; text-align:right; color:#9ac1c9}
+#options a {text-decoration:none; color:#9ac1c9}
+#options a:hover {color:#033}
+
+#acc1 {width:597px; list-style:none; color:#033; margin:0 auto 40px}
+#acc1 h3 {width:583px; font: normal 14px Arial, Helvetica, sans-serif;	font-weight:bold; border:1px solid #9ac1c9; padding:6px 6px 8px; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc1 h3:hover {background:url(images/header_over.gif)}
+#acc1 .acc-section {overflow:hidden; background:#fff}
+#acc1 .acc-content {width:565px; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+
+#acc2 {width:597px; list-style:none; color:#033; margin:0 auto 40px}
+#acc2 h3 {width:583px; font: normal 14px Arial, Helvetica, sans-serif;	font-weight:bold; border:1px solid #9ac1c9; padding:6px 6px 8px; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc2 h3:hover {background:url(images/header_over.gif)}
+#acc2 .acc-section {overflow:hidden; background:#fff}
+#acc2 .acc-content {width:565px; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+
+#acc3 {width:597px; list-style:none; color:#033; margin:0 auto 40px}
+#acc3 h3 {width:583px; font: normal 14px Arial, Helvetica, sans-serif;	font-weight:bold; border:1px solid #9ac1c9; padding:6px 6px 8px; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc3 h3:hover {background:url(images/header_over.gif)}
+#acc3 .acc-section {overflow:hidden; background:#fff}
+#acc3 .acc-content {width:565px; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+
+#acc4 {width:597px; list-style:none; color:#033; margin:0 auto 40px}
+#acc4 h3 {width:583px; font: normal 14px Arial, Helvetica, sans-serif;	font-weight:bold; border:1px solid #9ac1c9; padding:6px 6px 8px; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc4 h3:hover {background:url(images/header_over.gif)}
+#acc4 .acc-section {overflow:hidden; background:#fff}
+#acc4 .acc-content {width:565px; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+
+#acc5 {width:597px; list-style:none; color:#033; margin:0 auto 40px}
+#acc5 h3 {width:583px; font: normal 14px Arial, Helvetica, sans-serif;	font-weight:bold; border:1px solid #9ac1c9; padding:6px 6px 8px; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc5 h3:hover {background:url(images/header_over.gif)}
+#acc5 .acc-section {overflow:hidden; background:#fff}
+#acc5 .acc-content {width:565px; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+
+#nested {width:565px; list-style:none; color:#033; margin-bottom:15px}
+#nested h3 {width:551px; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested h3:hover {background:url(images/header_over.gif)}
+#nested .acc-section {overflow:hidden; background:#fff}
+#nested .acc-content {width:433px; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested .acc-selected {background:url(images/header_over.gif)}
