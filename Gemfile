@@ -14,7 +14,8 @@ group :assets do
   gem 'uglifier'
 end
 
-gem 'mysql2'
+gem "mysql2"
+
 gem 'jquery-rails'
 gem 'formtastic'
 gem 'therubyracer'
