@@ -153,12 +153,14 @@ a.rm, a.com {
 	padding:24px 0;
 	width:880px;
 }
+
 .content .mainbar {
 	margin:0;
 	padding:0;
 	float:left;
 	width:670px;
 }
+
 .content .mainbar img {
 	padding:4px;
 	border: 0px;
