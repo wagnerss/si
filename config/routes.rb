@@ -1,5 +1,7 @@
 Si::Application.routes.draw do
 
+  resources :contacts
+
   get "public/home"
 
   get "public/index"
@@ -8,8 +10,6 @@ Si::Application.routes.draw do
   get "public/contact"
   root :to => 'public#home'
   
-
-  resources :pages
   
 
   # The priority is based upon order of creation:

@@ -151,7 +151,7 @@ a.rm, a.com {
 .content_resize {
 	margin:0 auto;
 	padding:24px 0;
-	width:970px;
+	width:880px;
 }
 .content .mainbar {
 	margin:0;
@@ -162,7 +162,6 @@ a.rm, a.com {
 .content .mainbar img {
 	padding:4px;
 	border: 0px;
-	background-color:#fff;
 }
 .content .mainbar img.fl {
 	margin:4px 16px 4px 0;
@@ -170,12 +169,12 @@ a.rm, a.com {
 }
 .content .mainbar .article {
 	margin:0;
-	padding:16px 24px 24px 40px;
+	padding:16px 24px 24px 0px;
 }
 .content .sidebar {
 	padding:0;
 	float:right;
-	width:300px;
+	width:200px;
 }
 .content .sidebar .gadget {
 	margin:0;

@@ -1,0 +1,88 @@
+<div class="header">
+  <div class="header_resize">
+    <div class="logo">
+			<a href="index.html"><%= image_tag("logo.png") %></a>      
+		</div>
+    <div class="menu_nav">
+      <ul>
+        <li><a href="/public/index">Home <small>página inicial</small></a></li>
+        <li><a href="/public/service">Área de atuação <small>serviços</small></a></li>
+        <li class="active"><a href="/public/about">Sobre nós<small>informação</small></a></li>
+        <li><a href="#">Blog <small>nutrição</small></a></li>
+        <li><a href="/public/contact">Contato<small>Endereço e telefone</small></a></li>
+      </ul>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
+<div class="hbg">
+  <div class="hbg_resize"><%= image_tag("banner.jpg") %></div>
+</div>
+<div class="content">
+  <div class="content_resize">
+    <div class="mainbar">
+	
+			<%= gmaps({
+			    "map_options" => { "center_longitude" => 100, "zoom" => 0},
+					    "markers"     => { "data" => '[{ "lng": "5.9311119", "lat": "43.1251606", "picture": "", "width": "100px", "height": "" }]',
+						 }
+			    })
+			    %>
+	
+			<div class="article">
+				<h2>Contato</h2>
+				<p>
+					Nós queremos ouvir você. Nós da Sabor Integral, disponibilizamos este canal de comunicação 
+					para atendê-los da melhor forma possível. Suas críticas e sugestões são elementos importantes para 
+					o aperfeiçoamento e qualidade dos nossos produtos e serviços. Estamos sempre à sua disposição! Escolha 
+					a melhor maneira de entrar em contato conosco:					
+				</p>
+			</div>	
+			
+			<div class="article">
+				<h2>Localição</h2>
+				<p>
+					Nós queremos ouvir você. Nós da Sabor Integral, disponibilizamos este canal de comunicação 
+					para atendê-los da melhor forma possível. Suas críticas e sugestões são elementos importantes para 
+					o aperfeiçoamento e qualidade dos nossos produtos e serviços. Estamos sempre à sua disposição! Escolha 
+					a melhor maneira de entrar em contato conosco:					
+				</p>
+			</div>	
+			
+			<%= render 'form' %>
+			<%= link_to 'Back', contacts_path %>
+    </div>
+    <div class="sidebar">
+      <div class="gadget">
+        <h2 class="star">Menu</h2>
+        <div class="clr"></div>
+        <ul class="sb_menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Área de atuação</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Fale conosco</a></li>
+        </ul>
+      </div>
+      <div class="gadget">
+        <h2 class="star"><span>Parceiros</span></h2>
+        <div class="clr"></div>
+        <ul class="ex_menu">
+          <li>
+						<a href="#">Empresa1</a><br />
+            ...
+					</li>
+          <li>
+						<a href="#">Empresa2</a><br />
+            ...
+					</li>
+          <li>
+						<a href="#">Empresa3</a><br />
+            ...
+					</li>
+        </ul>
+      </div>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
