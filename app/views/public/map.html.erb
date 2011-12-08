@@ -1,0 +1,30 @@
+<%= yield :head %>
+<div class="content">
+  <div class="content_resize">
+    <div class="mainbar">
+	
+			<div class="article">
+				<h2>Telefones</h2>
+				<p>(11) 4113-2806 / 4113-2809</p>
+				
+				<h2>Endereço</h2>
+				<p>
+					<a href="http://g.co/maps/v8qf9" target="_blank">Rua Henrique Bernardelli, 134, CJ. 64, Santana, São Paulo, 02013-010</a>	
+				</p>
+									
+				<%= gmaps({
+					"map_options" => { "type" => "ROADMAP", "auto_adjust" => true, "auto_zoom" => false, "zoom" => 16},
+					"markers"     => { "data" => '[{ "description": "<b>Sabor Integral</b></br>Rua Henrique Bernardelli, 134, CJ. 64</br>Santana, São Paulo</br>02013-010", "title": "Sabor Integral", "lng": "-46.6282399", "lat": "-23.5035843", "picture": "/assets/aple.gif", "width": "26", "height": "30" }]'}
+				})%>
+												
+			</div>	
+			
+    </div>
+		<%= render 'sidebar' %>
+    <div class="clr"></div>
+  </div>
+</div>
+<%= yield :scripts %>
+
+
+

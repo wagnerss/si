@@ -5,9 +5,29 @@
 	  <%= stylesheet_link_tag "application" %>
 	  <%= javascript_include_tag "application" %>
 	  <%= csrf_meta_tags %>
-		<%= yield :head %>
 	</head>
 	<body>
+		<div class="header">
+		  <div class="header_resize">
+		    <div class="logo">
+					<a href="index.html"><%= image_tag("logo.png") %></a>      
+				</div>
+		    <div class="menu_nav">
+		      <ul>
+		        <li><a href="/public/index">Home <small>início</small></a></li>
+		        <li><a href="/public/service">Atuação <small>serviços</small></a></li>
+		        <li><a href="/public/about">Sobre nós<small>quem somos</small></a></li>
+		        <li><a href="#">Blog <small>postagens</small></a></li>
+		        <li><a href="/public/map">Consultório<small>endereço e telefone</small></a></li>
+		        <li><a href="/contacts/new">Contato<small>fale conosco</small></a></li>
+		      </ul>
+		    </div>
+		    <div class="clr"></div>
+		  </div>
+		</div>
+		<div class="hbg">
+		  <div class="hbg_resize"><%= image_tag("banner.jpg") %></div>
+		</div>
 		<div class="main">
 			<%= yield %>
 			<div class="fbg">
@@ -37,6 +57,5 @@
 		    </div>
 		  </div>
 		</div>
-		<%= yield :scripts %>
 	</body>
 </html>

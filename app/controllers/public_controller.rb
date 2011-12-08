@@ -6,6 +6,8 @@ class PublicController < ApplicationController
   def service
   end
 
+  def map
+  end
 
   def about
   end

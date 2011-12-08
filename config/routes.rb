@@ -4,11 +4,12 @@ Si::Application.routes.draw do
 
   get "public/home"
 
+  root :to => 'public#home'
+  
   get "public/index"
   get "public/about"
   get "public/service"
-  get "public/contact"
-  root :to => 'public#home'
+  get "public/map"
   
   
 
