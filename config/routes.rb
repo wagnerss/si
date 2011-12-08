@@ -11,6 +11,8 @@ Si::Application.routes.draw do
   get "public/service"
   get "public/map"
   
+  match '/google66a31046c538518c.html', :to => redirect('/public/google66a31046c538518c.html')
+  
   
 
   # The priority is based upon order of creation:
